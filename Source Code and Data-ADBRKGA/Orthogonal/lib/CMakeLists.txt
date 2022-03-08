@@ -1,0 +1,5 @@
+add_library(GenOperator GenOperator.cpp classAndVarDefine.cpp config.cpp GenerateAChrom.cpp ../ADBRKGA.cpp ../ADBRKGA.h)
+add_library(tools tools.cpp ../ADBRKGA.cpp ../ADBRKGA.h)
+add_library(pugixml pugixml.cpp ../ADBRKGA.cpp ../ADBRKGA.h)
+add_library(classAndVarDefine classAndVarDefine.cpp ../ADBRKGA.cpp ../ADBRKGA.h)
+add_library(config config.cpp ../ADBRKGA.cpp ../ADBRKGA.h)
